@@ -1,0 +1,20 @@
+{
+  "name": "advanced-scraper",
+  "version": "1.0.0",
+  "description": "A web scraping project using Node.js",
+  "main": "src/scraper.js",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "puppeteer": "^23.5.0"
+  },
+  "scripts": {
+    "scrape": "node src/scraper.js",
+    "dynamic": "node src/dynamicScraper.js",
+    "api": "node src/apiScraper.js",
+    "paginator": "node src/paginator.js"
+  },
+  "keywords": ["scraping", "axios", "cheerio", "puppeteer"],
+  "author": "Ayush Kush",
+  "license": "ISC"
+}
